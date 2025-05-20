@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineClub_TuPeliculaAPI", "CineClub_TuPeliculaAPI\CineClub_TuPeliculaAPI.csproj", "{7FEE415E-19CB-43FF-B1EC-08B1FD9F713D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FEE415E-19CB-43FF-B1EC-08B1FD9F713D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEE415E-19CB-43FF-B1EC-08B1FD9F713D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEE415E-19CB-43FF-B1EC-08B1FD9F713D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEE415E-19CB-43FF-B1EC-08B1FD9F713D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8A6555A-041E-481D-94E9-696F21C295D4}
+	EndGlobalSection
+EndGlobal
