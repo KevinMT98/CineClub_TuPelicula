@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario Ciudad</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+
+    <!-- Bootstrap & AdminLTE -->
+    <link rel="stylesheet" href="Estilos/adminlte.min.css">
+    <link rel="stylesheet" href="Estilos/css/all.min.css">
+
+    <!-- Select2 -->
+    <link rel="stylesheet" href="Estilos/select2.min.css">
+    <link rel="stylesheet" href="Estilos/select2-bootstrap4.min.css">
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="Estilos/dataTables.min.css">
+    <link rel="stylesheet" href="Estilos/dataTables.bootstrap4.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+
+    <section class="content">
+        <div class="container-fluid mt-4">
+            <div class="card card-primary">
+                <div class="card-header">
+                    <h3 class="card-title">Formulario de Ciudad</h3>
+                </div>
+                <form id="frmCiudad">
+                    <div class="card-body">
+                        <div class="row">
+                            <!-- Nombre de la ciudad -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="nom_ciudad">Nombre de la Ciudad</label>
+                                    <input type="text" class="form-control" id="nom_ciudad" name="nom_ciudad" placeholder="Ej: Medellín" required>
+                                </div>
+                            </div>
+                            <!-- Código postal -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="cod_postal">Código Postal</label>
+                                    <input type="text" class="form-control" id="cod_postal" name="cod_postal" placeholder="Ej: 050021" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">Guardar Ciudad</button>
+                        <button type="submit" class="btn btn-primary">Editar Ciudad</button>
+                        <button type="submit" class="btn btn-primary">Eliminar Ciudad</button>
+                        <button type="reset" class="btn btn-secondary">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+    <script src="Scripts/adminlte.min.js"></script>
+
+    <!-- Select2 -->
+    <script src="Scripts/select2.full.min.js"></script>
+
+    <!-- DataTables -->
+    <script src="Scripts/jquery.dataTables.min.js"></script>
+    <script src="Scripts/dataTables.bootstrap4.min.js"></script>
+
+    <script>
+
+    </script>
+
+</body>
+</html>
