@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\",
+  "WorkspaceRootPath": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\paradise\u00F1o.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\desarrollo_software\\proyecto_des_software\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\paradise\u00F1o.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\paradise\u00F1o.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "paraDise\u00F1o.html",
-              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
+              "DocumentMoniker": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
               "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
-              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
+              "ToolTip": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
               "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-05-28T00:23:07.557Z",
               "EditorCaption": ""
