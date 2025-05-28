@@ -156,21 +156,41 @@
     <Content Include="Paginas\Estilos\webfonts\fa-brands-400.svg" />
     <Content Include="Paginas\Estilos\webfonts\fa-regular-400.svg" />
     <Content Include="Paginas\Estilos\webfonts\fa-solid-900.svg" />
+<<<<<<< Updated upstream
     <Content Include="Paginas\frmTipo_Documento.html" />
+=======
+    <Content Include="Paginas\frmActor.html" />
+    <Content Include="Paginas\frmAsignatura.html" />
+    <Content Include="Paginas\frmDirector.html" />
+>>>>>>> Stashed changes
     <Content Include="Paginas\frmEstudiante.html" />
     <Content Include="Paginas\frmFacultad.html" />
+    <Content Include="Paginas\frmGenero.html" />
     <Content Include="Paginas\frmInicio.html" />
+<<<<<<< Updated upstream
     <Content Include="Paginas\frmCiudad.html" />
     <Content Include="Paginas\frmDireccion_Cliente.html" />
     <Content Include="Paginas\frmPeriodo.html" />
     <Content Include="Paginas\frmPrograma.html" />
     <Content Include="Paginas\frmCliente.html" />
+=======
+    <Content Include="Paginas\frmestado_conservacion.html" />
+    <Content Include="Paginas\frmMatricula.html" />
+    <Content Include="Paginas\frmNacionalidad.html" />
+    <Content Include="Paginas\frmPeriodo.html" />
+    <Content Include="Paginas\frmPrograma.html" />
+    <Content Include="Paginas\frm.html" />
+    <Content Include="Paginas\frmTelefono_Cliente.html" />
+    <Content Include="Paginas\frmTipoTelefono.html" />
+>>>>>>> Stashed changes
     <Content Include="Paginas\Menu.html" />
     <Content Include="Paginas\PaginaBase.html" />
     <Content Include="Paginas\paraDiseño.html" />
     <Content Include="Paginas\Scripts\Comunes\Combos.js" />
     <Content Include="Paginas\Scripts\Comunes\Tablas.js" />
+    <Content Include="Paginas\frmCargo.html" />
     <Content Include="Paginas\Scripts\frmInicio.js" />
+    <Content Include="Paginas\frmPapel.html" />
     <Content Include="Paginas\Scripts\paraDiseño.js" />
     <Content Include="Scripts\adminlte.js" />
     <Content Include="Scripts\adminlte.min.js" />

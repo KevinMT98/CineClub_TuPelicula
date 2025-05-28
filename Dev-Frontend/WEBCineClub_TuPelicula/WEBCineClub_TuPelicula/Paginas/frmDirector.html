@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maestro de Director</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link href="Estilos/adminlte.min.css" rel="stylesheet" />
+    <link href="Estilos/css/all.min.css" rel="stylesheet" />
+    <link href="Estilos/select2.min.css" rel="stylesheet" />
+    <link href="Estilos/select2-bootstrap4.min.css" rel="stylesheet" />
+    <link href="Estilos/dataTables.min.css" rel="stylesheet" />
+    <link href="Estilos/dataTables.bootstrap4.min.css" rel="stylesheet" />
+</head>
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" id="dvMenu"></div>
+                <div class="col-md-12">
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Maestro de Director</h3>
+                        </div>
+                        <form id="frmDirector">
+                            <div class="card-body">
+                                <div class="card card-gray-dark">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Datos del Director</h3>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="txtIdDirector">ID Director:</label>
+                                                    <input type="text" id="txtIdDirector" class="form-control" placeholder="ID automático o manual">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="form-group">
+                                                    <label for="txtNombreDirector">Nombre del Director:</label>
+                                                    <input type="text" id="txtNombreDirector" class="form-control" placeholder="Nombre completo del director">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="txtObservaciones">Observaciones:</label>
+                                                    <textarea id="txtObservaciones" class="form-control" rows="3" placeholder="Observaciones relevantes..."></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Botones de acción -->
+                                    <div class="card-body">
+                                        <div class="mb-4 text-center">
+                                            <button type="button" class="btn btn-info me-2"><i class="fas fa-search"></i> Buscar</button>
+                                            <button type="button" class="btn btn-success me-2"><i class="fas fa-save"></i> Guardar</button>
+                                            <button type="button" class="btn btn-primary me-2"><i class="fas fa-edit"></i> Modificar</button>
+                                            <button type="reset" class="btn btn-secondary"><i class="fas fa-times"></i> Cancelar</button>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div id="dvMensaje" class=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Tabla de resultados -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <table id="tablaDirector" class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>Nombre</th>
+                                                    <th>Observaciones</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="../Scripts/jquery-3.7.0.min.js"></script>
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script src="../Scripts/select2.min.js"></script>
+    <script src="Scripts/Comunes/Tablas.js"></script>
+    <script src="../Scripts/jquery.dataTables.min.js"></script>
+    <script src="../Scripts/dataTables.bootstrap4.min.js"></script>
+    <script src="Scripts/frmDirector.js"></script>
+</body>
+</html>
