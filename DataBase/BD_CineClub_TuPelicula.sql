@@ -208,7 +208,6 @@ CREATE TABLE alquiler (
     FK_id_cliente INT,
 	FK_id_empleado INT,
     fecha_inicio DATE NOT NULL,
-    dias_alquiler INT NOT NULL,
     FOREIGN KEY (FK_id_cliente) REFERENCES cliente(id_cliente),
 	FOREIGN KEY (FK_id_empleado) REFERENCES empleado(id_empleado)
 );
@@ -221,6 +220,7 @@ CREATE TABLE detalle_alquiler (
     FK_id_ejemplar INT,
 descripcion nvarchar (200),
 fecha_devolucion date,
+    dias_alquiler INT NOT NULL,
     FOREIGN KEY (FK_id_cliente) REFERENCES cliente(id_cliente),
     FOREIGN KEY (FK_id_ejemplar) REFERENCES ejemplar(id_ejemplar),
 	foreign key (FK_alquiler) references alquiler (id_alquiler)
