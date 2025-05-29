@@ -1,9 +1,9 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Maestro de Actor</title>
+    <title>Maestro de Empleado</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <link href="Estilos/adminlte.min.css" rel="stylesheet" />
     <link href="Estilos/css/all.min.css" rel="stylesheet" />
@@ -20,84 +20,111 @@
                 <div class="col-md-12">
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Formulario de Actor</h3>
+                            <h3 class="card-title">Formulario de Empleado</h3>
                         </div>
-                        <form id="frmActor">
+                        <form id="frmEmpleado" autocomplete="off">
                             <div class="card-body">
                                 <div class="card card-gray-dark">
                                     <div class="card-header">
-                                        <h3 class="card-title">Datos de Entrada</h3>
+                                        <h3 class="card-title">Datos del Empleado</h3>
                                     </div>
                                     <div class="card-body">
                                         <div class="row mb-3">
                                             <div class="col-md-2">
                                                 <div class="form-group">
-                                                    <label for="txtIdActor">ID Actor:</label>
-                                                    <input type="text" id="txtIdActor" class="form-control" readonly />
+                                                    <label for="txtIdEmpleado">ID Empleado</label>
+                                                    <input type="text" id="txtIdEmpleado" class="form-control" readonly />
                                                 </div>
                                             </div>
-                                            <div class="col-md-5">
+                                            <div class="col-md-3">
                                                 <div class="form-group">
-                                                    <label for="txtNombre">Nombre:</label>
-                                                    <input type="text" id="txtNombre" class="form-control" placeholder="Ingrese nombre..." required />
+                                                    <label for="cboTipoDocumento">Tipo de Documento</label>
+                                                    <select id="cboTipoDocumento" class="form-control select2"></select>
                                                 </div>
                                             </div>
-                                            <div class="col-md-5">
+                                            <div class="col-md-3">
                                                 <div class="form-group">
-                                                    <label for="cboNacionalidad">Nacionalidad:</label>
-                                                    <select id="cboNacionalidad" class="form-control select2" style="width: 100%;"></select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row mb-3">
-                                            <div class="col-md-4">
-                                                <div class="form-group">
-                                                    <label for="cboGenero">Género:</label>
-                                                    <select id="cboGenero" class="form-control select2" style="width: 100%;"></select>
+                                                    <label for="txtNumeroDocumento">Número de Documento</label>
+                                                    <input type="text" id="txtNumeroDocumento" class="form-control" required />
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label for="dtFechaNac">Fecha Nacimiento:</label>
-                                                    <input type="date" id="dtFechaNac" class="form-control" />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <div class="form-group">
-                                                    <label for="txtAniosExp">Años Experiencia:</label>
-                                                    <input type="number" id="txtAniosExp" class="form-control" min="0" value="0" />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <div class="form-group">
-                                                    <label for="txtNroPremios">Nro. Premios:</label>
-                                                    <input type="number" id="txtNroPremios" class="form-control" min="0" value="0" />
+                                                    <label for="cboEmpleadoJefe">Empleado Jefe</label>
+                                                    <select id="cboEmpleadoJefe" class="form-control select2">
+                                                        <option value="">Sin jefe</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row mb-3">
                                             <div class="col-md-3">
                                                 <div class="form-group">
-                                                    <label>Sexo:</label><br />
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="sexo" id="sexoM" value="M" checked>
-                                                        <label class="form-check-label" for="sexoM">Masculino</label>
-                                                    </div>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="sexo" id="sexoF" value="F">
-                                                        <label class="form-check-label" for="sexoF">Femenino</label>
-                                                    </div>
+                                                    <label for="txtNombre">Nombre</label>
+                                                    <input type="text" id="txtNombre" class="form-control" required />
                                                 </div>
                                             </div>
-                                            <div class="col-md-2 d-flex align-items-end">
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label for="txtApellido1">Apellido 1</label>
+                                                    <input type="text" id="txtApellido1" class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label for="txtApellido2">Apellido 2</label>
+                                                    <input type="text" id="txtApellido2" class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 d-flex align-items-end">
                                                 <div class="form-check">
                                                     <input type="checkbox" id="chkActivo" class="form-check-input" />
                                                     <label class="form-check-label" for="chkActivo">Activo</label>
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="row mb-3">
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label for="cboCargo">Cargo</label>
+                                                    <select id="cboCargo" class="form-control select2"></select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label for="dtFechaIngreso">Fecha Ingreso</label>
+                                                    <input type="date" id="dtFechaIngreso" class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="form-group">
+                                                    <label for="txtSalario">Salario</label>
+                                                    <input type="number" id="txtSalario" class="form-control" min="0" step="0.01" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="form-group">
+                                                    <label for="txtNroHijos">Nro. Hijos</label>
+                                                    <input type="number" id="txtNroHijos" class="form-control" min="0" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="txtCorreo">Correo</label>
+                                                    <input type="email" id="txtCorreo" class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="txtTelefono">Teléfono</label>
+                                                    <input type="text" id="txtTelefono" class="form-control" />
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <!-- Menú de Opciones -->
+                                    <!-- Botones de acción -->
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-md-3">
@@ -120,27 +147,29 @@
                                                     <button type="reset" id="btnCancelar" class="btn-block btn-lg btn-secondary"><i class="fas fa-times"></i> Cancelar</button>
                                                 </div>
                                             </div>
-                                            
                                         </div>
                                         <div class="card-footer">
-                                            <div id="dvMensaje" class=""></div>
+                                            <div id="dvMensaje"></div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Tabla de Actores -->
+                                <!-- Tabla de empleados -->
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <table id="tablaActores" class="table table-bordered table-striped">
+                                        <table id="tblEmpleado" class="table table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>ID</th>
+                                                    <th>Tipo Doc</th>
+                                                    <th>Nro Doc</th>
                                                     <th>Nombre</th>
-                                                    <th>Nacionalidad</th>
-                                                    <th>Género</th>
-                                                    <th>Fecha Nac.</th>
-                                                    <th>Experiencia</th>
-                                                    <th>Premios</th>
-                                                    <th>Sexo</th>
+                                                    <th>Apellido 1</th>
+                                                    <th>Apellido 2</th>
+                                                    <th>Cargo</th>
+                                                    <th>Fecha Ingreso</th>
+                                                    <th>Salario</th>
+                                                    <th>Correo</th>
+                                                    <th>Teléfono</th>
                                                     <th>Activo</th>
                                                 </tr>
                                             </thead>
@@ -150,7 +179,7 @@
                                         </table>
                                     </div>
                                 </div>
-                            </div>  <!-- /.card-body -->
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -161,10 +190,8 @@
     <script src="../Scripts/jquery-3.7.0.min.js"></script>
     <script src="../Scripts/bootstrap.bundle.min.js"></script>
     <script src="../Scripts/select2.min.js"></script>
-    <script src="Scripts/Comunes/Combos.js"></script>
     <script src="../Scripts/jquery.dataTables.min.js"></script>
     <script src="../Scripts/dataTables.bootstrap4.min.js"></script>
-    <script src="Scripts/Comunes/Tablas.js"></script>
-    <script src="Scripts/frmActor.js"></script>
+    <script src="Scripts/frmEmpleado.js"></script>
 </body>
 </html>

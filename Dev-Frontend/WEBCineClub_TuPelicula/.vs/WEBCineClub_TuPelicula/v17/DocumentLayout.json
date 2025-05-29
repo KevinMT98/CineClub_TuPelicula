@@ -1,54 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\",
+  "WorkspaceRootPath": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\desarrollo_software\\proyecto_des_software\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\paradise\u00F1o.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-=======
+      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmalquiler.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmalquiler.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmlogin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmlogin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmpelicula.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmpelicula.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmactor.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmactor.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmestudiante.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmestudiante.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmdirector.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmdirector.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmtelefono_cliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmtelefono_cliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmnacionalidad.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmnacionalidad.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmcargo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmcargo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\paradise\u00F1o.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
->>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\paradise\u00F1o.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\desarrollo_software\\proyecto_des_software\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmciudad.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmciudad.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\desarrollo_software\\proyecto_des_software\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmdireccion_cliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmdireccion_cliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\desarrollo_software\\proyecto_des_software\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmtipo_documento.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmtipo_documento.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|c:\\desarrollo_software\\proyecto_des_software\\cineclub_tupelicula\\dev-frontend\\webcineclub_tupelicula\\webcineclub_tupelicula\\paginas\\frmcliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:webcineclub_tupelicula\\paginas\\frmcliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmDireccion_Cliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45ECB63E-30FF-4594-AABF-72B9CAFD642D}|WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula.csproj|solutionrelative:WEBCineClub_TuPelicula\\Paginas\\frmDireccion_Cliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,157 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 4,
-=======
           "SelectedChildIndex": 2,
->>>>>>> Stashed changes
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmCliente.html",
-              "DocumentMoniker": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmCliente.html",
-              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmCliente.html",
-              "ToolTip": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmCliente.html",
-              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmCliente.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-28T02:22:32.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmTipo_Documento.html",
-              "DocumentMoniker": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmTipo_Documento.html",
-              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmTipo_Documento.html",
-              "ToolTip": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmTipo_Documento.html",
-              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmTipo_Documento.html",
-              "ViewState": "AQIAADQAAAAAAAAAAAAIwD4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-28T02:14:53.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmDireccion_Cliente.html",
-              "DocumentMoniker": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmDireccion_Cliente.html",
-              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmDireccion_Cliente.html",
-              "ToolTip": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmDireccion_Cliente.html",
-              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmDireccion_Cliente.html",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-28T01:58:21.769Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmCiudad.html",
-              "DocumentMoniker": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmCiudad.html",
-              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmCiudad.html",
-              "ToolTip": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmCiudad.html",
-              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmCiudad.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAABOAAAA",
+              "Title": "frmLogin.html",
+              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmLogin.html",
+              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmLogin.html",
+              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmLogin.html",
+              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmLogin.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-28T01:48:47.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmDirector.html",
-              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmDirector.html",
-              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmDirector.html",
-              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmDirector.html",
-              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmDirector.html",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAmwFUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-28T02:32:16.454Z",
+              "WhenOpened": "2025-05-28T17:04:31.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmActor.html",
-              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmActor.html",
-              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmActor.html",
-              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmActor.html",
-              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmActor.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABIAAAAAAAAAA==",
+              "Title": "frmAlquiler.html",
+              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmAlquiler.html",
+              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmAlquiler.html",
+              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmAlquiler.html",
+              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmAlquiler.html",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAswGIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-28T02:27:22.851Z",
+              "WhenOpened": "2025-05-28T05:20:01.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmNacionalidad.html",
-              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmNacionalidad.html",
-              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmNacionalidad.html",
-              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmNacionalidad.html",
-              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmNacionalidad.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "frmPelicula.html",
+              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmPelicula.html",
+              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmPelicula.html",
+              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmPelicula.html",
+              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmPelicula.html",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-28T02:23:00.732Z",
+              "WhenOpened": "2025-05-28T05:07:31.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmTelefono_Cliente.html",
-              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmTelefono_Cliente.html",
-              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmTelefono_Cliente.html",
-              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmTelefono_Cliente.html",
-              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmTelefono_Cliente.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Title": "frmActor.html",
+              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmActor.html",
+              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmActor.html",
+              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmActor.html",
+              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmActor.html",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-28T02:21:35.418Z",
+              "WhenOpened": "2025-05-28T04:23:15.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "frmCargo.html",
-              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmCargo.html",
-              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmCargo.html",
-              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmCargo.html",
-              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmCargo.html",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Title": "frmDireccion_Cliente.html",
+              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmDireccion_Cliente.html",
+              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmDireccion_Cliente.html",
+              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmDireccion_Cliente.html",
+              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmDireccion_Cliente.html",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-28T02:05:24.71Z",
+              "WhenOpened": "2025-05-28T02:46:09.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmEstudiante.html",
-              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmEstudiante.html",
-              "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\frmEstudiante.html",
-              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\frmEstudiante.html",
-              "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\frmEstudiante.html",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAHcAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-28T01:49:01.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "paraDise\u00F1o.html",
-              "DocumentMoniker": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
+              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
               "RelativeDocumentMoniker": "WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
-              "ToolTip": "C:\\DESARROLLO_SOFTWARE\\PROYECTO_DES_SOFTWARE\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
+              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Frontend\\WEBCineClub_TuPelicula\\WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
               "RelativeToolTip": "WEBCineClub_TuPelicula\\Paginas\\paraDise\u00F1o.html",
-<<<<<<< Updated upstream
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
-=======
-              "ViewState": "AgIAAGsAAAAAAAAAAAAmwIkAAAAHAAAAAAAAAA==",
->>>>>>> Stashed changes
+              "ViewState": "AgIAAIAAAAAAAAAAAAAqwIkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-28T00:23:07.557Z",
+              "WhenOpened": "2025-05-28T02:46:09.059Z",
               "EditorCaption": ""
             }
           ]

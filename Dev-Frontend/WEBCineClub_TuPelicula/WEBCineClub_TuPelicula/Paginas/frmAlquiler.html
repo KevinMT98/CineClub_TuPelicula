@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario de Alquiler</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link href="Estilos/adminlte.min.css" rel="stylesheet" />
+    <link href="Estilos/css/all.min.css" rel="stylesheet" />
+    <link href="Estilos/select2.min.css" rel="stylesheet" />
+    <link href="Estilos/select2-bootstrap4.min.css" rel="stylesheet" />
+    <link href="Estilos/dataTables.min.css" rel="stylesheet" />
+    <link href="Estilos/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <style>
+        .form-header {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .action-buttons .btn {
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-divider {
+            border-bottom: 1px solid #dee2e6;
+            margin: 1rem 0 1rem 0;
+        }
+
+        .form-group label {
+            font-size: 0.95rem;
+        }
+
+        .table th, .table td {
+            padding: 0.3rem 0.5rem;
+            font-size: 0.95rem;
+            vertical-align: middle;
+        }
+
+        .card-header.bg-primary {
+            background-color: #007bff !important;
+        }
+
+        .card {
+            box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+        }
+
+        .detalle-card {
+            margin-top: 1rem;
+        }
+
+        .detalle-total {
+            font-weight: bold;
+            margin-top: 0.5rem;
+            margin-left: 0.5rem;
+        }
+
+        .table thead th {
+            background-color: #f4f6f9;
+        }
+    </style>
+</head>
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" id="dvMenu"></div>
+                <div class="col-md-12">
+                    <div class="card card-primary">
+                        <div class="card-header d-flex justify-content-between align-items-center bg-primary">
+                            <span class="form-header text-white">Formulario de Alquiler</span>
+                            <div class="action-buttons">
+                                <button type="button" id="btnBuscar" class="btn btn-info" title="Buscar"><i class="fas fa-search"></i></button>
+                                <button type="button" id="btnGuardar" class="btn btn-success" title="Guardar"><i class="fas fa-save"></i></button>
+                                <button type="button" id="btnModificar" class="btn btn-primary" title="Modificar"><i class="fas fa-edit"></i></button>
+                                <button type="reset" id="btnCancelar" class="btn btn-secondary" title="Cancelar"><i class="fas fa-times"></i></button>
+                            </div>
+                        </div>
+                        <form id="frmAlquiler" autocomplete="off">
+                            <div class="card-body pt-3">
+                                <!-- Encabezado de Alquiler -->
+                                <div class="row mb-2">
+                                    <div class="col-md-2">
+                                        <div class="form-group mb-1">
+                                            <label for="txtIdAlquiler">ID Alquiler</label>
+                                            <input type="text" id="txtIdAlquiler" class="form-control form-control-sm" readonly />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-1">
+                                            <label for="cboCliente">Cliente</label>
+                                            <select id="cboCliente" class="form-control form-control-sm select2"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-1">
+                                            <label for="cboEmpleado">Empleado Responsable</label>
+                                            <select id="cboEmpleado" class="form-control form-control-sm select2"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group mb-1">
+                                            <label for="dtFechaInicio">Fecha de Inicio</label>
+                                            <input type="date" id="dtFechaInicio" class="form-control form-control-sm" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section-divider"></div>
+                                <!-- Detalle de Alquiler en un cuadro visual -->
+                                <div class="card border-primary mb-3 detalle-card">
+                                    <div class="card-header bg-primary text-white py-2">
+                                        Detalle de Ejemplares
+                                    </div>
+                                    <div class="card-body p-2">
+                                        <div class="row mb-2">
+                                            <div class="col-md-4">
+                                                <div class="form-group mb-1">
+                                                    <label for="cboEjemplar">Ejemplar</label>
+                                                    <select id="cboEjemplar" class="form-control form-control-sm select2"></select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group mb-1">
+                                                    <label for="txtDescripcion">Descripción</label>
+                                                    <input type="text" id="txtDescripcion" class="form-control form-control-sm" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group mb-1">
+                                                    <label for="dtFechaDevolucion">Fecha Devolución</label>
+                                                    <input type="date" id="dtFechaDevolucion" class="form-control form-control-sm" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1 d-flex align-items-end">
+                                                <button type="button" id="btnAgregarDetalle" class="btn btn-success btn-block" title="Agregar al detalle">
+                                                    <i class="fas fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table id="tblDetalleAlquiler" class="table table-bordered table-striped mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 60px;">ID</th>
+                                                        <th>Descripción</th>
+                                                        <th>Fecha Devolución</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!-- Detalles agregados dinámicamente -->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section-divider"></div>
+                                <!-- Mensajes -->
+                                <div class="row mb-2">
+                                    <div class="col-md-12">
+                                        <div id="dvMensaje"></div>
+                                    </div>
+                                </div>
+                                <!-- Tabla de alquileres general eliminada -->
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Scripts -->
+    <script src="../Scripts/jquery-3.7.0.min.js"></script>
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script src="../Scripts/select2.min.js"></script>
+    <script src="../Scripts/jquery.dataTables.min.js"></script>
+    <script src="../Scripts/dataTables.bootstrap4.min.js"></script>
+    <script src="Scripts/frmAlquiler.js"></script>
+</body>
+</html>
