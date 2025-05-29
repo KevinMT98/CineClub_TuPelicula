@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Backend\\CineClub_TuPeliculaAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7FEE415E-19CB-43FF-B1EC-08B1FD9F713D}|CineClub_TuPeliculaAPI\\CineClub_TuPeliculaAPI.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-backend\\cineclub_tupeliculaapi\\cineclub_tupeliculaapi\\clases\\clsopecargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEE415E-19CB-43FF-B1EC-08B1FD9F713D}|CineClub_TuPeliculaAPI\\CineClub_TuPeliculaAPI.csproj|solutionrelative:cineclub_tupeliculaapi\\clases\\clsopecargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FEE415E-19CB-43FF-B1EC-08B1FD9F713D}|CineClub_TuPeliculaAPI\\CineClub_TuPeliculaAPI.csproj|c:\\proyectoc#\\cineclub_tupelicula\\dev-backend\\cineclub_tupeliculaapi\\cineclub_tupeliculaapi\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEE415E-19CB-43FF-B1EC-08B1FD9F713D}|CineClub_TuPeliculaAPI\\CineClub_TuPeliculaAPI.csproj|solutionrelative:cineclub_tupeliculaapi\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Model1.Context.cs",
-              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Backend\\CineClub_TuPeliculaAPI\\CineClub_TuPeliculaAPI\\Models\\Model1.Context.cs",
-              "RelativeDocumentMoniker": "CineClub_TuPeliculaAPI\\Models\\Model1.Context.cs",
-              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Backend\\CineClub_TuPeliculaAPI\\CineClub_TuPeliculaAPI\\Models\\Model1.Context.cs",
-              "RelativeToolTip": "CineClub_TuPeliculaAPI\\Models\\Model1.Context.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAYwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T02:32:49.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClsOpeCargo.cs",
-              "DocumentMoniker": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Backend\\CineClub_TuPeliculaAPI\\CineClub_TuPeliculaAPI\\Clases\\ClsOpeCargo.cs",
-              "RelativeDocumentMoniker": "CineClub_TuPeliculaAPI\\Clases\\ClsOpeCargo.cs",
-              "ToolTip": "C:\\ProyectoC#\\CineClub_TuPelicula\\Dev-Backend\\CineClub_TuPeliculaAPI\\CineClub_TuPeliculaAPI\\Clases\\ClsOpeCargo.cs",
-              "RelativeToolTip": "CineClub_TuPeliculaAPI\\Clases\\ClsOpeCargo.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwCkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T02:16:05.555Z",
-              "EditorCaption": ""
             }
           ]
         }
