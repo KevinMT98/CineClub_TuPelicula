@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="019e0e0c5aa0420ab0d6f88fa9d6fd64" Name="Diagram1">
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.actor" Width="1.5" PointX="19.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.alquiler" Width="1.5" PointX="8.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.cargo" Width="1.5" PointX="3.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.ciudad" Width="1.5" PointX="6" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.cliente" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.direccion_cliente" Width="1.5" PointX="8.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.director" Width="1.5" PointX="11.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.ejemplar" Width="1.5" PointX="18.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.empleado" Width="1.5" PointX="6" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.estado_conservacion" Width="1.5" PointX="16.5" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.genero" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.nacionalidad" Width="1.5" PointX="9" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.papel" Width="1.5" PointX="19.5" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.pelicula" Width="1.5" PointX="16.5" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.pelicula_actor" Width="1.5" PointX="21.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.telefono_cliente" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.tipo_documento" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.tipo_telefono" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.usuario_sistema" Width="1.5" PointX="8.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_CineClub_TuPeliculaModel.detalle_alquiler" Width="1.5" PointX="13.5" PointY="9.875" IsExpanded="true" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__actor__FK_id_gen__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__actor__FK_id_nac__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__pelicula___FK_id__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__alquiler__FK_id___6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__alquiler__FK_id___6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__detalle_a__FK_al__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__empleado__FK_id___2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__direccion__FK_id__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__cliente__FK_id_a__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__cliente__FK_id_g__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__cliente__FK_id_t__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__detalle_a__FK_id__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__direccion__FK_id__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__telefono___FK_id__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__director__FK_id___36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__director__FK_id___37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__pelicula__FK_id___3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__detalle_a__FK_id__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__ejemplar__FK_id___534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__ejemplar__FK_id___5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__ejemplar__FK_id___5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__empleado__FK_id___2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__empleado__FK_id___2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__pelicula__FK_id___3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__usuario_s__FK_id__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__pelicula__FK_id___3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__pelicula___FK_id__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__pelicula___FK_id__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="BD_CineClub_TuPeliculaModel.FK__telefono___FK_id__66603565" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
