@@ -3,10 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Maestro de Cargo</title>
+    <title>Formulario Usuario del Sistema</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <link href="Estilos/adminlte.min.css" rel="stylesheet" />
     <link href="Estilos/css/all.min.css" rel="stylesheet" />
+    <link href="Estilos/select2.min.css" rel="stylesheet" />
+    <link href="Estilos/select2-bootstrap4.min.css" rel="stylesheet" />
     <link href="Estilos/dataTables.min.css" rel="stylesheet" />
     <link href="Estilos/dataTables.bootstrap4.min.css" rel="stylesheet" />
 </head>
@@ -18,26 +20,40 @@
                 <div class="col-md-12">
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Maestro de Cargo</h3>
+                            <h3 class="card-title">Formulario Usuario del Sistema</h3>
                         </div>
-                        <form id="formCargo" autocomplete="off">
+                        <form id="frmUsuarioSistema" autocomplete="off">
                             <div class="card-body">
                                 <div class="card card-gray-dark">
                                     <div class="card-header">
-                                        <h3 class="card-title">Datos de Entrada</h3>
+                                        <h3 class="card-title">Datos del Usuario</h3>
                                     </div>
                                     <div class="card-body">
                                         <div class="row mb-3">
-                                            <div class="col-md-4">
+                                            <div class="col-md-2">
                                                 <div class="form-group">
-                                                    <label for="txtIdCargo">ID Cargo</label>
-                                                    <input type="text" class="form-control" id="txtIdCargo" name="txtIdCargo" readonly />
+                                                    <label for="txtIdUsuario">ID Usuario</label>
+                                                    <input type="text" id="txtIdUsuario" class="form-control" readonly />
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-md-5">
                                                 <div class="form-group">
-                                                    <label for="txtDescripcionCargo">Descripción</label>
-                                                    <input type="text" class="form-control" id="txtDescripcionCargo" name="txtDescripcionCargo" required />
+                                                    <label for="cboEmpleado">Empleado</label>
+                                                    <select id="cboEmpleado" class="form-control select2"></select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <label for="txtNombreUsuario">Nombre de Usuario</label>
+                                                    <input type="text" id="txtNombreUsuario" class="form-control" required />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <label for="txtContrasena">Contraseña</label>
+                                                    <input type="password" id="txtContrasena" class="form-control" required />
                                                 </div>
                                             </div>
                                             <div class="col-md-2 d-flex align-items-end">
@@ -71,26 +87,26 @@
                                                     <button type="reset" id="btnCancelar" class="btn-block btn-lg btn-secondary"><i class="fas fa-times"></i> Cancelar</button>
                                                 </div>
                                             </div>
-                                            
                                         </div>
                                         <div class="card-footer">
-                                            <div id="dvMensaje" class=""></div>
+                                            <div id="dvMensaje"></div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Tabla de datos -->
+                                <!-- Tabla de usuarios -->
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <table id="tblCargo" class="table table-bordered table-striped">
+                                        <table id="tblUsuarioSistema" class="table table-bordered table-striped">
                                             <thead>
                                                 <tr>
-                                                    <th>ID Cargo</th>
-                                                    <th>Descripción</th>
+                                                    <th>ID</th>
+                                                    <th>Empleado</th>
+                                                    <th>Usuario</th>
                                                     <th>Activo</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <!-- Filas generadas dinámicamente -->
+                                                <!-- Datos dinámicos -->
                                             </tbody>
                                         </table>
                                     </div>
@@ -105,8 +121,9 @@
     <!-- Scripts -->
     <script src="../Scripts/jquery-3.7.0.min.js"></script>
     <script src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script src="../Scripts/select2.min.js"></script>
     <script src="../Scripts/jquery.dataTables.min.js"></script>
     <script src="../Scripts/dataTables.bootstrap4.min.js"></script>
-    <script src="Scripts/frmCargo.js"></script>
+    <script src="Scripts/frmUsuarioSistema.js"></script>
 </body>
 </html>

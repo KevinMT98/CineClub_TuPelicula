@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Maestro de Director</title>
-
-    <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <link href="Estilos/adminlte.min.css" rel="stylesheet" />
     <link href="Estilos/css/all.min.css" rel="stylesheet" />
@@ -22,7 +20,7 @@
                 <div class="col-md-12">
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Maestro de Director</h3>
+                            <h3 class="card-title">Formulario de Director</h3>
                         </div>
                         <form id="frmDirector">
                             <div class="card-body">
@@ -30,69 +28,121 @@
                                     <div class="card-header">
                                         <h3 class="card-title">Datos del Director</h3>
                                     </div>
-
                                     <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-4">
+                                        <div class="row mb-3">
+                                            <div class="col-md-2">
                                                 <div class="form-group">
                                                     <label for="txtIdDirector">ID Director:</label>
-                                                    <input type="text" id="txtIdDirector" class="form-control" placeholder="ID automático o manual">
+                                                    <input type="text" id="txtIdDirector" class="form-control" readonly />
                                                 </div>
                                             </div>
-                                            <div class="col-md-8">
+                                            <div class="col-md-5">
                                                 <div class="form-group">
-                                                    <label for="txtNombreDirector">Nombre del Director:</label>
-                                                    <input type="text" id="txtNombreDirector" class="form-control" placeholder="Nombre completo del director">
+                                                    <label for="txtNombreDirector">Nombre:</label>
+                                                    <input type="text" id="txtNombreDirector" class="form-control" placeholder="Nombre completo del director" required />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group">
+                                                    <label for="txtCorreo">Correo:</label>
+                                                    <input type="email" id="txtCorreo" class="form-control" placeholder="Correo electrónico" />
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
+                                        <div class="row mb-3">
+                                            <div class="col-md-3">
                                                 <div class="form-group">
-                                                    <label for="txtObservaciones">Observaciones:</label>
-                                                    <textarea id="txtObservaciones" class="form-control" rows="3" placeholder="Observaciones relevantes..."></textarea>
+                                                    <label for="dtFechaNac">Fecha Nacimiento:</label>
+                                                    <input type="date" id="dtFechaNac" class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label for="txtAniosExp">Años Experiencia:</label>
+                                                    <input type="number" id="txtAniosExp" class="form-control" min="0" value="0" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label for="txtNroPremios">Nro. Premios:</label>
+                                                    <input type="number" id="txtNroPremios" class="form-control" min="0" value="0" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label for="cboNacionalidad">Nacionalidad:</label>
+                                                    <select id="cboNacionalidad" class="form-control select2" style="width: 100%;"></select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-md-2 d-flex align-items-end">
+                                                <div class="form-check">
+                                                    <input type="checkbox" id="chkActivo" class="form-check-input" />
+                                                    <label class="form-check-label" for="chkActivo">Activo</label>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
                                     <!-- Botones de acción -->
                                     <div class="card-body">
-                                        <div class="mb-4 text-center">
-                                            <button type="button" class="btn btn-info me-2"><i class="fas fa-search"></i> Buscar</button>
-                                            <button type="button" class="btn btn-success me-2"><i class="fas fa-save"></i> Guardar</button>
-                                            <button type="button" class="btn btn-primary me-2"><i class="fas fa-edit"></i> Modificar</button>
-                                            <button type="reset" class="btn btn-secondary"><i class="fas fa-times"></i> Cancelar</button>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <button type="button" id="btnBuscar" class="btn-block btn-lg btn-info"><i class="fas fa-search"></i> Buscar</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <button type="button" id="btnGuardar" class="btn-block btn-lg btn-success"><i class="fas fa-save"></i> Guardar</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="form-group">
+                                                    <button type="button" id="btnModificar" class="btn-block btn-lg btn-primary"><i class="fas fa-edit"></i> Modificar</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="form-group">
+                                                    <button type="reset" id="btnCancelar" class="btn-block btn-lg btn-secondary"><i class="fas fa-times"></i> Cancelar</button>
+                                                </div>
+                                            </div>
+                                            
                                         </div>
                                         <div class="card-footer">
                                             <div id="dvMensaje" class=""></div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <!-- Tabla de resultados -->
+                                <!-- Tabla de Directores -->
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <table id="tablaDirector" class="table table-bordered table-striped">
+                                        <table id="tablaDirectores" class="table table-bordered table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>ID</th>
                                                     <th>Nombre</th>
-                                                    <th>Observaciones</th>
+                                                    <th>Correo</th>
+                                                    <th>Fecha Nac.</th>
+                                                    <th>Experiencia</th>
+                                                    <th>Premios</th>
+                                                    <th>Nacionalidad</th>
+                                                    <th>Activo</th>
                                                 </tr>
                                             </thead>
+                                            <tbody>
+                                                <!-- Datos dinámicos -->
+                                            </tbody>
                                         </table>
                                     </div>
                                 </div>
-
-                            </div>
+                            </div>  <!-- /.card-body -->
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Scripts -->
     <script src="../Scripts/jquery-3.7.0.min.js"></script>
     <script src="../Scripts/bootstrap.bundle.min.js"></script>
